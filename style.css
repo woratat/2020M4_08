@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+  }
+  
+  .flex-item {
+    -ms-flex-preferred-size: 200px;
+        flex-basis: 200px;
+    padding: 20px;
+    margin: 20px;
+    background-color: darkgray;
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  #ok {
+    color: red;
+    border: 2px solid red;
+  }
+  
+  #cancel {
+    color: white;
+    background-color: black;
+  }
+  .toggleOn{
+    background-color: #fff;
+  }
+  .toggleOff{
+      background-color: darkgrey;
+  }
+
+.addMargin{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.output-container{
+  background-color:blue;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.output-container .flex-item{
+  background-color: #fff;
+}
