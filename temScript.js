@@ -23,4 +23,4 @@ function addNum(){
     notiOut.innerText = counter
 }
 searchButton.addEventListener('click',addText)
-inputText.addEventListener('blur',addText)
+inputText.addEventListener('blur',addText)  //ไม่ต้องกดปุ่มก็มาเอง
