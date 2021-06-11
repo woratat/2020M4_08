@@ -44,3 +44,7 @@
 .output-container .flex-item{
   background-color: #fff;
 }
+
+div{
+  border: 1px solid black;
+}

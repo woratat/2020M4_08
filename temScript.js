@@ -23,3 +23,4 @@ function addNum(){
     notiOut.innerText = counter
 }
 searchButton.addEventListener('click',addText)
+inputText.addEventListener('blur',addText)
